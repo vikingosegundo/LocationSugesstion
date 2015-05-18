@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class VSNetworkController;
 
 @interface ViewController : UIViewController
-
+@property (nonatomic, strong) VSNetworkController *networkController;
 
 @end
 

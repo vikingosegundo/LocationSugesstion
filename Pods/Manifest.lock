@@ -1,0 +1,10 @@
+PODS:
+  - OFAPopulator (0.0.9)
+
+DEPENDENCIES:
+  - OFAPopulator (~> 0.0.9)
+
+SPEC CHECKSUMS:
+  OFAPopulator: 6da48a883ca1662d3432f0b2b35e895dab0d9963
+
+COCOAPODS: 0.37.1

@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0302C0D03AF3EA2E89B285BA /* OFASelectableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D789A142AB8E6A5B430FCB40 /* OFASelectableCell.h */; };
+		18C45B81DA1DD00CF0F53E2B /* OFAMinMaxSelectionSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = BA063840CB633B4A106C4477 /* OFAMinMaxSelectionSectionPopulator.m */; };
+		19C5E3A0775C7C29ADFD8818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13741D10A51654F1F340547B /* Foundation.framework */; };
+		3014AA56CC86F6FB160C8D59 /* OFADataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBE24D6F48DC9CD853F66C1 /* OFADataProvider.h */; };
+		3540B3A6A215FDA985B167B8 /* OFATableViewSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A971A254363892CCB971AAFD /* OFATableViewSectionPopulator.m */; };
+		362991C01CB0FD6EF00B39A3 /* OFACollectionViewSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D5BFA053CDC0EACAB4F97 /* OFACollectionViewSectionPopulator.m */; };
+		42706D721D391B43031DF137 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C88BAD3CFE31C0C89EAACD /* Pods-dummy.m */; };
+		5B3A0D1E7EC2AF9082AD5747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13741D10A51654F1F340547B /* Foundation.framework */; };
+		6719E4A433F5C6BECE304DD6 /* OFAReorderSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8157D11A881A1BC0311864A3 /* OFAReorderSectionPopulator.h */; };
+		6935B202CFFCAE3D8B8B781A /* OFAViewPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 595E43E94015B5B1D726623A /* OFAViewPopulator.h */; };
+		6945CAAD5F9DF9F1CD917849 /* OFAViewPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 491E722FCCF239BABFAF2AA6 /* OFAViewPopulator.m */; };
+		A1608A191A1B07CA1B1ED148 /* Pods-OFAPopulator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F46AE16959B5B1EC6DC80BDC /* Pods-OFAPopulator-dummy.m */; };
+		AAE859A887DA6941AB1D7555 /* OFAAbstractPrivateSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E114C6759626C82A9AC9AB6 /* OFAAbstractPrivateSectionPopulator.h */; };
+		C493DF6340F76DAD6001AC17 /* OFASectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = F301EC66F80AC1E6110FC74D /* OFASectionPopulator.h */; };
+		C994F0E6AE756ECAEAFEC710 /* OFATableViewSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE5F0C15AA19F7CF959868E /* OFATableViewSectionPopulator.h */; };
+		D3165D1424F00F3FBD376D3A /* OFACollectionViewSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B85917771E1DBA06CDC24DC /* OFACollectionViewSectionPopulator.h */; };
+		DC45B46AABF5554394239F80 /* OFAPrivateCollectionViewSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 25369A0BE0ECCB90BC0BAFE5 /* OFAPrivateCollectionViewSectionPopulator.h */; };
+		DCEA0C55D9F736A40EA6325E /* OFADataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D20EA76ED213E36F5756DE /* OFADataFetcher.h */; };
+		E5FF9E79975BB08D2214372A /* OFASectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C3E799637EC8AA8A1FA2BB /* OFASectionPopulator.m */; };
+		F277FFE5EA276064C98BD582 /* OFAPrivateCollectionViewSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ABA2C82C9C816D7F12977E /* OFAPrivateCollectionViewSectionPopulator.m */; };
+		F30B69D32947A2AAD7225E81 /* OFAPrivateTableViewSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 209C942D59452292EDAFBAFD /* OFAPrivateTableViewSectionPopulator.m */; };
+		F6237C64D2AA52E812338733 /* OFAMinMaxSelectionSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE51FAFDCE0ED78D70E28CF /* OFAMinMaxSelectionSectionPopulator.h */; };
+		FAB95FF0A6BFF42E3A997DA1 /* OFAReorderSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491CE674EF10CD40F8C9422 /* OFAReorderSectionPopulator.m */; };
+		FD4C0142D20E73C4EB2A6372 /* OFAPrivateTableViewSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D6C95025F4ED7CEE65CA3D /* OFAPrivateTableViewSectionPopulator.h */; };
+		FDE8CE1EBE9C6566BF9FB556 /* OFAAbstractPrivateSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D4B50FFD81C1C6690A529 /* OFAAbstractPrivateSectionPopulator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A009020B8BA1A618DC2B2721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A62E0C44A8F99530D0FF6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F992068F291E49454E07BB98;
+			remoteInfo = "Pods-OFAPopulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C28DB3D92D8BC0445A603B /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08FF975C7E8CDB24EA08D7F7 /* Pods-OFAPopulator-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OFAPopulator-Private.xcconfig"; sourceTree = "<group>"; };
+		13741D10A51654F1F340547B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1B85917771E1DBA06CDC24DC /* OFACollectionViewSectionPopulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFACollectionViewSectionPopulator.h; path = OFAPopulator/OFA/Header/OFACollectionViewSectionPopulator.h; sourceTree = "<group>"; };
+		1E114C6759626C82A9AC9AB6 /* OFAAbstractPrivateSectionPopulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFAAbstractPrivateSectionPopulator.h; path = OFAPopulator/OFA/OFAAbstractPrivateSectionPopulator.h; sourceTree = "<group>"; };
+		209C942D59452292EDAFBAFD /* OFAPrivateTableViewSectionPopulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFAPrivateTableViewSectionPopulator.m; path = OFAPopulator/OFA/OFAPrivateTableViewSectionPopulator.m; sourceTree = "<group>"; };
+		25369A0BE0ECCB90BC0BAFE5 /* OFAPrivateCollectionViewSectionPopulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFAPrivateCollectionViewSectionPopulator.h; path = OFAPopulator/OFA/OFAPrivateCollectionViewSectionPopulator.h; sourceTree = "<group>"; };
+		29D6C95025F4ED7CEE65CA3D /* OFAPrivateTableViewSectionPopulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFAPrivateTableViewSectionPopulator.h; path = OFAPopulator/OFA/OFAPrivateTableViewSectionPopulator.h; sourceTree = "<group>"; };
+		2BBE24D6F48DC9CD853F66C1 /* OFADataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFADataProvider.h; path = OFAPopulator/OFA/Header/OFADataProvider.h; sourceTree = "<group>"; };
+		2D2D4B50FFD81C1C6690A529 /* OFAAbstractPrivateSectionPopulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFAAbstractPrivateSectionPopulator.m; path = OFAPopulator/OFA/OFAAbstractPrivateSectionPopulator.m; sourceTree = "<group>"; };
+		461737C62808984A0F4CE9C2 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		46C88BAD3CFE31C0C89EAACD /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		491E722FCCF239BABFAF2AA6 /* OFAViewPopulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFAViewPopulator.m; path = OFAPopulator/OFA/OFAViewPopulator.m; sourceTree = "<group>"; };
+		5491CE674EF10CD40F8C9422 /* OFAReorderSectionPopulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFAReorderSectionPopulator.m; path = OFAPopulator/OFA/OFAReorderSectionPopulator.m; sourceTree = "<group>"; };
+		54D20EA76ED213E36F5756DE /* OFADataFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFADataFetcher.h; path = OFAPopulator/OFA/Header/OFADataFetcher.h; sourceTree = "<group>"; };
+		55ABA2C82C9C816D7F12977E /* OFAPrivateCollectionViewSectionPopulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFAPrivateCollectionViewSectionPopulator.m; path = OFAPopulator/OFA/OFAPrivateCollectionViewSectionPopulator.m; sourceTree = "<group>"; };
+		595E43E94015B5B1D726623A /* OFAViewPopulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFAViewPopulator.h; path = OFAPopulator/OFA/Header/OFAViewPopulator.h; sourceTree = "<group>"; };
+		79709C2ECC6E7E4F915DE6B0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		8157D11A881A1BC0311864A3 /* OFAReorderSectionPopulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFAReorderSectionPopulator.h; path = OFAPopulator/OFA/Header/OFAReorderSectionPopulator.h; sourceTree = "<group>"; };
+		81602FA9571596159DF6107C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91A57F445590F6B7BF6C2770 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		A75404318A80079052FF2E0D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A971A254363892CCB971AAFD /* OFATableViewSectionPopulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFATableViewSectionPopulator.m; path = OFAPopulator/OFA/OFATableViewSectionPopulator.m; sourceTree = "<group>"; };
+		B775B0EDE0F0171F0CD060D6 /* Pods-OFAPopulator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OFAPopulator-prefix.pch"; sourceTree = "<group>"; };
+		BA063840CB633B4A106C4477 /* OFAMinMaxSelectionSectionPopulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFAMinMaxSelectionSectionPopulator.m; path = OFAPopulator/OFA/OFAMinMaxSelectionSectionPopulator.m; sourceTree = "<group>"; };
+		CDE51FAFDCE0ED78D70E28CF /* OFAMinMaxSelectionSectionPopulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFAMinMaxSelectionSectionPopulator.h; path = OFAPopulator/OFA/Header/OFAMinMaxSelectionSectionPopulator.h; sourceTree = "<group>"; };
+		D59D5BFA053CDC0EACAB4F97 /* OFACollectionViewSectionPopulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFACollectionViewSectionPopulator.m; path = OFAPopulator/OFA/OFACollectionViewSectionPopulator.m; sourceTree = "<group>"; };
+		D789A142AB8E6A5B430FCB40 /* OFASelectableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFASelectableCell.h; path = OFAPopulator/OFA/Header/OFASelectableCell.h; sourceTree = "<group>"; };
+		D9BCE9EF16170AF5E5A94096 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC881D7FDA1113DA77D865A4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		E30B39EB1C9307EDBF2C9366 /* Pods-OFAPopulator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OFAPopulator.xcconfig"; sourceTree = "<group>"; };
+		E6C3E799637EC8AA8A1FA2BB /* OFASectionPopulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFASectionPopulator.m; path = OFAPopulator/OFA/OFASectionPopulator.m; sourceTree = "<group>"; };
+		EAE5F0C15AA19F7CF959868E /* OFATableViewSectionPopulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFATableViewSectionPopulator.h; path = OFAPopulator/OFA/Header/OFATableViewSectionPopulator.h; sourceTree = "<group>"; };
+		F301EC66F80AC1E6110FC74D /* OFASectionPopulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFASectionPopulator.h; path = OFAPopulator/OFA/Header/OFASectionPopulator.h; sourceTree = "<group>"; };
+		F46AE16959B5B1EC6DC80BDC /* Pods-OFAPopulator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OFAPopulator-dummy.m"; sourceTree = "<group>"; };
+		F927DFABB4B05BDDCE33F3C3 /* libPods-OFAPopulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OFAPopulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCFD7964EB96EABC3D5D7EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3A0D1E7EC2AF9082AD5747 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82D809EDCE3FF6263703C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C5E3A0775C7C29ADFD8818 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25E92B156505BBCAF59A6643 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C28DB3D92D8BC0445A603B /* Pods-acknowledgements.markdown */,
+				D9BCE9EF16170AF5E5A94096 /* Pods-acknowledgements.plist */,
+				46C88BAD3CFE31C0C89EAACD /* Pods-dummy.m */,
+				91A57F445590F6B7BF6C2770 /* Pods-environment.h */,
+				461737C62808984A0F4CE9C2 /* Pods-resources.sh */,
+				DC881D7FDA1113DA77D865A4 /* Pods.debug.xcconfig */,
+				79709C2ECC6E7E4F915DE6B0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		2EEE300E784881969584FC91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFDF81C65FC7616E4CFEDF /* OFAPopulator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5AFD2A5B32A156503DB46B8C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				13741D10A51654F1F340547B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		709BD9CBFA07102D57383670 = {
+			isa = PBXGroup;
+			children = (
+				81602FA9571596159DF6107C /* Podfile */,
+				EDFC9F7A26BD5966DDA8CDE3 /* Frameworks */,
+				2EEE300E784881969584FC91 /* Pods */,
+				8B85E08E5708D912725A39A8 /* Products */,
+				C458A96C43936C8C68E0772E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B85E08E5708D912725A39A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A75404318A80079052FF2E0D /* libPods.a */,
+				F927DFABB4B05BDDCE33F3C3 /* libPods-OFAPopulator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B250772B45ACFA1AAF1B7BE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E30B39EB1C9307EDBF2C9366 /* Pods-OFAPopulator.xcconfig */,
+				08FF975C7E8CDB24EA08D7F7 /* Pods-OFAPopulator-Private.xcconfig */,
+				F46AE16959B5B1EC6DC80BDC /* Pods-OFAPopulator-dummy.m */,
+				B775B0EDE0F0171F0CD060D6 /* Pods-OFAPopulator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-OFAPopulator";
+			sourceTree = "<group>";
+		};
+		C458A96C43936C8C68E0772E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25E92B156505BBCAF59A6643 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5AFDF81C65FC7616E4CFEDF /* OFAPopulator */ = {
+			isa = PBXGroup;
+			children = (
+				1E114C6759626C82A9AC9AB6 /* OFAAbstractPrivateSectionPopulator.h */,
+				2D2D4B50FFD81C1C6690A529 /* OFAAbstractPrivateSectionPopulator.m */,
+				1B85917771E1DBA06CDC24DC /* OFACollectionViewSectionPopulator.h */,
+				D59D5BFA053CDC0EACAB4F97 /* OFACollectionViewSectionPopulator.m */,
+				54D20EA76ED213E36F5756DE /* OFADataFetcher.h */,
+				2BBE24D6F48DC9CD853F66C1 /* OFADataProvider.h */,
+				CDE51FAFDCE0ED78D70E28CF /* OFAMinMaxSelectionSectionPopulator.h */,
+				BA063840CB633B4A106C4477 /* OFAMinMaxSelectionSectionPopulator.m */,
+				25369A0BE0ECCB90BC0BAFE5 /* OFAPrivateCollectionViewSectionPopulator.h */,
+				55ABA2C82C9C816D7F12977E /* OFAPrivateCollectionViewSectionPopulator.m */,
+				29D6C95025F4ED7CEE65CA3D /* OFAPrivateTableViewSectionPopulator.h */,
+				209C942D59452292EDAFBAFD /* OFAPrivateTableViewSectionPopulator.m */,
+				8157D11A881A1BC0311864A3 /* OFAReorderSectionPopulator.h */,
+				5491CE674EF10CD40F8C9422 /* OFAReorderSectionPopulator.m */,
+				F301EC66F80AC1E6110FC74D /* OFASectionPopulator.h */,
+				E6C3E799637EC8AA8A1FA2BB /* OFASectionPopulator.m */,
+				D789A142AB8E6A5B430FCB40 /* OFASelectableCell.h */,
+				EAE5F0C15AA19F7CF959868E /* OFATableViewSectionPopulator.h */,
+				A971A254363892CCB971AAFD /* OFATableViewSectionPopulator.m */,
+				595E43E94015B5B1D726623A /* OFAViewPopulator.h */,
+				491E722FCCF239BABFAF2AA6 /* OFAViewPopulator.m */,
+				B250772B45ACFA1AAF1B7BE9 /* Support Files */,
+			);
+			path = OFAPopulator;
+			sourceTree = "<group>";
+		};
+		EDFC9F7A26BD5966DDA8CDE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AFD2A5B32A156503DB46B8C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CD57CAC655BF679BAB932F17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE859A887DA6941AB1D7555 /* OFAAbstractPrivateSectionPopulator.h in Headers */,
+				D3165D1424F00F3FBD376D3A /* OFACollectionViewSectionPopulator.h in Headers */,
+				DCEA0C55D9F736A40EA6325E /* OFADataFetcher.h in Headers */,
+				3014AA56CC86F6FB160C8D59 /* OFADataProvider.h in Headers */,
+				F6237C64D2AA52E812338733 /* OFAMinMaxSelectionSectionPopulator.h in Headers */,
+				DC45B46AABF5554394239F80 /* OFAPrivateCollectionViewSectionPopulator.h in Headers */,
+				FD4C0142D20E73C4EB2A6372 /* OFAPrivateTableViewSectionPopulator.h in Headers */,
+				6719E4A433F5C6BECE304DD6 /* OFAReorderSectionPopulator.h in Headers */,
+				C493DF6340F76DAD6001AC17 /* OFASectionPopulator.h in Headers */,
+				0302C0D03AF3EA2E89B285BA /* OFASelectableCell.h in Headers */,
+				C994F0E6AE756ECAEAFEC710 /* OFATableViewSectionPopulator.h in Headers */,
+				6935B202CFFCAE3D8B8B781A /* OFAViewPopulator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB825F2AFE624A5F212D9B77 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 978334AAE0EB13EFB75969B4 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				5694504E93DF4380AD939242 /* Sources */,
+				F82D809EDCE3FF6263703C22 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A290E213D94BB5588498F52 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A75404318A80079052FF2E0D /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F992068F291E49454E07BB98 /* Pods-OFAPopulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3667476E802D7E167A380A /* Build configuration list for PBXNativeTarget "Pods-OFAPopulator" */;
+			buildPhases = (
+				70EDB811B3BF761D48DEFA01 /* Sources */,
+				BCFD7964EB96EABC3D5D7EFE /* Frameworks */,
+				CD57CAC655BF679BAB932F17 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OFAPopulator";
+			productName = "Pods-OFAPopulator";
+			productReference = F927DFABB4B05BDDCE33F3C3 /* libPods-OFAPopulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A62E0C44A8F99530D0FF6CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 80C9BCD45654CCA86975FB6B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 709BD9CBFA07102D57383670;
+			productRefGroup = 8B85E08E5708D912725A39A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB825F2AFE624A5F212D9B77 /* Pods */,
+				F992068F291E49454E07BB98 /* Pods-OFAPopulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5694504E93DF4380AD939242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42706D721D391B43031DF137 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EDB811B3BF761D48DEFA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE8CE1EBE9C6566BF9FB556 /* OFAAbstractPrivateSectionPopulator.m in Sources */,
+				362991C01CB0FD6EF00B39A3 /* OFACollectionViewSectionPopulator.m in Sources */,
+				18C45B81DA1DD00CF0F53E2B /* OFAMinMaxSelectionSectionPopulator.m in Sources */,
+				F277FFE5EA276064C98BD582 /* OFAPrivateCollectionViewSectionPopulator.m in Sources */,
+				F30B69D32947A2AAD7225E81 /* OFAPrivateTableViewSectionPopulator.m in Sources */,
+				FAB95FF0A6BFF42E3A997DA1 /* OFAReorderSectionPopulator.m in Sources */,
+				E5FF9E79975BB08D2214372A /* OFASectionPopulator.m in Sources */,
+				3540B3A6A215FDA985B167B8 /* OFATableViewSectionPopulator.m in Sources */,
+				6945CAAD5F9DF9F1CD917849 /* OFAViewPopulator.m in Sources */,
+				A1608A191A1B07CA1B1ED148 /* Pods-OFAPopulator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A290E213D94BB5588498F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OFAPopulator";
+			target = F992068F291E49454E07BB98 /* Pods-OFAPopulator */;
+			targetProxy = A009020B8BA1A618DC2B2721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F964F032253F6EFD6577AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC881D7FDA1113DA77D865A4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		19B77F27EC630049A8D65364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FF975C7E8CDB24EA08D7F7 /* Pods-OFAPopulator-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OFAPopulator/Pods-OFAPopulator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		73FA4C275251A813A915ED2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E55E7F30F470071ADE6E81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79709C2ECC6E7E4F915DE6B0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9B4BD329D34A606317042798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FF975C7E8CDB24EA08D7F7 /* Pods-OFAPopulator-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OFAPopulator/Pods-OFAPopulator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B752CD11C6987D160C0D6334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3667476E802D7E167A380A /* Build configuration list for PBXNativeTarget "Pods-OFAPopulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4BD329D34A606317042798 /* Debug */,
+				19B77F27EC630049A8D65364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C9BCD45654CCA86975FB6B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FA4C275251A813A915ED2C /* Debug */,
+				B752CD11C6987D160C0D6334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		978334AAE0EB13EFB75969B4 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F964F032253F6EFD6577AD4 /* Debug */,
+				8E55E7F30F470071ADE6E81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A62E0C44A8F99530D0FF6CA /* Project object */;
+}

@@ -14,6 +14,10 @@
 		648EA9191B095A0D00859208 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648EA9181B095A0D00859208 /* Images.xcassets */; };
 		648EA91C1B095A0D00859208 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 648EA91A1B095A0D00859208 /* LaunchScreen.xib */; };
 		648EA9281B095A0D00859208 /* LocationSugesstionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EA9271B095A0D00859208 /* LocationSugesstionTests.m */; };
+		648EA9331B095B1A00859208 /* VSNetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EA9321B095B1A00859208 /* VSNetworkController.m */; };
+		648EA9361B09642800859208 /* VSLocationSuggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EA9351B09642800859208 /* VSLocationSuggestion.m */; };
+		648EA9391B0969E700859208 /* VSSuggestionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EA9381B0969E700859208 /* VSSuggestionDataSource.m */; };
+		70C7A4AEFB4BE4166E9AF4F7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 093904A49FE8E1216281BC07 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		093904A49FE8E1216281BC07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		648EA9081B095A0D00859208 /* LocationSugesstion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationSugesstion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648EA90C1B095A0D00859208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648EA90D1B095A0D00859208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,14 @@
 		648EA9211B095A0D00859208 /* LocationSugesstionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationSugesstionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		648EA9261B095A0D00859208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648EA9271B095A0D00859208 /* LocationSugesstionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationSugesstionTests.m; sourceTree = "<group>"; };
+		648EA9311B095B1A00859208 /* VSNetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSNetworkController.h; sourceTree = "<group>"; };
+		648EA9321B095B1A00859208 /* VSNetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSNetworkController.m; sourceTree = "<group>"; };
+		648EA9341B09642800859208 /* VSLocationSuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLocationSuggestion.h; sourceTree = "<group>"; };
+		648EA9351B09642800859208 /* VSLocationSuggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLocationSuggestion.m; sourceTree = "<group>"; };
+		648EA9371B0969E700859208 /* VSSuggestionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSuggestionDataSource.h; sourceTree = "<group>"; };
+		648EA9381B0969E700859208 /* VSSuggestionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSuggestionDataSource.m; sourceTree = "<group>"; };
+		D7B665159AE249D423B48971 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F53BDC978EF1A07E2D1A970F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C7A4AEFB4BE4166E9AF4F7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34BAD9A1009A1083A8FBC864 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093904A49FE8E1216281BC07 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		648EA8FF1B095A0D00859208 = {
 			isa = PBXGroup;
 			children = (
 				648EA90A1B095A0D00859208 /* LocationSugesstion */,
 				648EA9241B095A0D00859208 /* LocationSugesstionTests */,
 				648EA9091B095A0D00859208 /* Products */,
+				D77CEE153AAAB4B268195A6B /* Pods */,
+				34BAD9A1009A1083A8FBC864 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +113,12 @@
 				648EA9181B095A0D00859208 /* Images.xcassets */,
 				648EA91A1B095A0D00859208 /* LaunchScreen.xib */,
 				648EA90B1B095A0D00859208 /* Supporting Files */,
+				648EA9311B095B1A00859208 /* VSNetworkController.h */,
+				648EA9321B095B1A00859208 /* VSNetworkController.m */,
+				648EA9341B09642800859208 /* VSLocationSuggestion.h */,
+				648EA9351B09642800859208 /* VSLocationSuggestion.m */,
+				648EA9371B0969E700859208 /* VSSuggestionDataSource.h */,
+				648EA9381B0969E700859208 /* VSSuggestionDataSource.m */,
 			);
 			path = LocationSugesstion;
 			sourceTree = "<group>";
@@ -119,6 +149,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D77CEE153AAAB4B268195A6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7B665159AE249D423B48971 /* Pods.debug.xcconfig */,
+				F53BDC978EF1A07E2D1A970F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 648EA92B1B095A0D00859208 /* Build configuration list for PBXNativeTarget "LocationSugesstion" */;
 			buildPhases = (
+				D903EEE97CDC1C353BFF34EC /* Check Pods Manifest.lock */,
 				648EA9041B095A0D00859208 /* Sources */,
 				648EA9051B095A0D00859208 /* Frameworks */,
 				648EA9061B095A0D00859208 /* Resources */,
+				8F2F91661B1767ACA5069692 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +255,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8F2F91661B1767ACA5069692 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D903EEE97CDC1C353BFF34EC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		648EA9041B095A0D00859208 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				648EA9141B095A0D00859208 /* ViewController.m in Sources */,
+				648EA9391B0969E700859208 /* VSSuggestionDataSource.m in Sources */,
 				648EA9111B095A0D00859208 /* AppDelegate.m in Sources */,
+				648EA9361B09642800859208 /* VSLocationSuggestion.m in Sources */,
 				648EA90E1B095A0D00859208 /* main.m in Sources */,
+				648EA9331B095B1A00859208 /* VSNetworkController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +424,7 @@
 		};
 		648EA92C1B095A0D00859208 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B665159AE249D423B48971 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LocationSugesstion/Info.plist;
@@ -357,6 +435,7 @@
 		};
 		648EA92D1B095A0D00859208 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53BDC978EF1A07E2D1A970F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LocationSugesstion/Info.plist;
@@ -418,6 +497,7 @@
 				648EA92D1B095A0D00859208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		648EA92E1B095A0D00859208 /* Build configuration list for PBXNativeTarget "LocationSugesstionTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +506,7 @@
 				648EA9301B095A0D00859208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
